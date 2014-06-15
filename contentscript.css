@@ -1,0 +1,45 @@
+/* Outermost box */
+.jbodju-info,
+.jbodju-info * {
+    font-size: small;
+    font-weight: normal;
+    z-index: 999999 !important;
+}
+
+/* Setting the font weight above breaks <b> and <strong> tags. This fixes them. */
+.jbodju-info strong, b, strong *, b * {
+    font-weight: bold;
+}
+
+/* Crappy buttons at the bottom. */
+.jbodju-info-button {
+    border: 1px solid #d04040;
+    border-spacing: 0.25em;
+    padding: 0.25em;
+    display: inline;
+    background: #d0d0d0;
+}
+
+/* ID for outermost box */
+#jbodju-info-main {
+    border: 2px solid #d00000;
+    background: #d00000;
+}
+
+/* class to mark elided stuff */
+.jbojdu-elidable { }
+
+
+/* based on camxes.lojban.org */
+#jbodju-boxes { }
+.jbodju-box {
+  text-align: center;
+  display: table-cell; 
+  border-spacing: 0.25em 0;
+}
+.jbodju-box p { margin: .5em; }
+.jbodju-first { background: #ede5dc; }
+.jbodju-second { background: #f6eaeb; }
+.jbodju-third { background: #f9dbdc; }
+.jbodju-fourth { background: #fff6f2; }
+.jbodju-fifth { background: #f4e0d4; }
